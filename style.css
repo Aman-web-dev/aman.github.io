@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2&family=Fasthand&family=Fuzzy+Bubbles&family=Lora:ital@1&family=Roboto:ital,wght@1,900&display=swap');
+
+*{
+background-color: black;
+
+
+}
+
+
+
+#display{
+
+   font-size: 100px;
+
+color: black;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+font-family: 'Anton', sans-serif;
+
+color: #fff;
+
+
+-webkit-animation: display 1s ease-in-out infinite alternate;
+
+  -moz-animation: display 1s ease-in-out infinite alternate;
+
+  animation: display 1s ease-in-out infinite alternate;
+
+
+}
+
+
+.show{
+
+
+width: 100vw;
+height: 100vh;
+
+
+}
+
+@-webkit-keyframes display {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
